@@ -5,9 +5,11 @@ Although this project is not based on any particular tutorial, I mainly used the
 
 There is no GUI for this project as the goal is to understand the structure. The idea is that we have three filters to be applied to data. `PestShareChart` represents the _Abstraction_ whereas `areaFilter`, `cultivarTypeFilter` and `pestTypeFilter` packages represent _Implementations_ and _Concrete Implementations_. The _Client_ calls the main method on `PestShareChart` that in turn calls appropriate filters and do complex operations to return the result.
 
+Check the test class to see the code in action.
+
 ## Class Structure
 
-As each package represents a _Implementation_, we focus only on classes in the `areaFilter` package, in addition to the _Abstraction_.
+As each package represents an _Implementation_, we focus only on classes in the `areaFilter` package, in addition to the _Abstraction_.
 
 * `PestShareChart` represents the _Abstraction_. This is the class that is accessible by the _Client_. This class is responsible for calling appropriate _Implementations_ and using the result to perform complex operation;
 
