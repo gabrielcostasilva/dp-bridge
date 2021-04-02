@@ -1,5 +1,5 @@
 # Bridge Design Pattern Example
-Although this project is not based in any particular tutorial, I mainly used the [Refactoring Guru](https://refactoring.guru/design-patterns/bridge) explanation as main reference when implementing the code.
+Although this project is not based on any particular tutorial, I mainly used the [Refactoring Guru](https://refactoring.guru/design-patterns/bridge) explanation as main reference when implementing the code.
 
 ## Project Overview
 
