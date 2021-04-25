@@ -9,6 +9,8 @@ Check the test class to see the code in action.
 
 ## Class Structure
 
+<img src="./pics/Diagram.png" />
+
 As each package represents an _Implementation_, we focus only on classes in the `areaFilter` package, in addition to the _Abstraction_.
 
 * `PestShareChart` represents the _Abstraction_. This is the class that is accessible by the _Client_. This class is responsible for calling appropriate _Implementations_ and using the result to perform complex operation;
